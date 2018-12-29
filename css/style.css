@@ -72,6 +72,10 @@ header .basket {
     line-height: 22px;
     color: #333333;
     text-decoration: none;
+    display: inline-block;
+    padding-left: 28px;
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 header .basket span {
@@ -89,6 +93,23 @@ header .phone [class*="icon"] {
     font-size: 20px;
 }
 
+.banner .sale {
+    width: 305px;
+    height: 360px;
+}
+
+.banner .slider {
+    width: 640px;
+    height: 360px;
+}
+
+.banner > div {
+    -webkit-background-size: ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .advanteges .item span {
     font-size: 12px;
     font-weight: bold;
@@ -96,7 +117,7 @@ header .phone [class*="icon"] {
     color: #333333;
 }
 
-.advanteges .item p {
+.advantages .item p {
     font-size: 12px;
     line-height: 14px;
     color: #666666;
@@ -125,7 +146,7 @@ header .phone [class*="icon"] {
     color: rgba(255,255,255,0.5);
 }
 
-.filter0 li {
+.filter li {
     font-size: 13px;
     line-height: 16px;
     border-bottom: 1px  dashed #666666;
@@ -134,6 +155,15 @@ header .phone [class*="icon"] {
 .filter li a {
     text-decoration: none;
     color: #666666;
+}
+
+.card .img {
+    width: 220px;
+    height: 220px;
+    -webkit-background-size: ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card .name {
@@ -170,12 +200,28 @@ header .phone [class*="icon"] {
     color: #ffffff;
 }
 
-.socials h2 {
+.widjets h2 {
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
     text-align: center;
     color: #666666;
+}
+
+.widjets .item:first-child, .widjets .item:last-child {
+    width: 290px;
+    height: 400px;
+}
+
+.widjets .item:nth-child(2) {
+    width: 350px;
+    height: 400px;
+}
+
+.widjets .item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .tabs li a {
@@ -185,13 +231,13 @@ header .phone [class*="icon"] {
     color: #999999;
 }
 
-.info .content {
+.tubContent .content {
     font-size: 12px;
     line-height: 18px;
     color: #333333;
 }
 
-.info .title {
+.tubContent .title {
     text-transform: uppercase;
 }
 
@@ -209,4 +255,49 @@ footer a {
 footer a.soc {
     font-size: 21px;
 }
+
+/*Новости подробно (news.html)*/
+
+.breadCrumbs li a, .breadCrumbs li {
+    font-size: 12px;
+    line-height: 22px;
+    color: #999999;
+    text-decoration: none;
+}
+
+.firstCap  {
+    font-size: 25px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.secCap {
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.newsDate {
+    font-size: 12px;
+    line-height: 22px;
+    color: #aaaaaa;
+}
+
+.newsTxt {
+    font-size: 13px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.moreNews {
+    font-size: 13px;
+    line-height: 22px;
+    color: #0069b4;
+}
+
+
+
+
 
