@@ -314,10 +314,11 @@ footer a.soc {
     font-weight: 600;
 }
 
-.leftWrap label {
+.wrapLabel label {
     font-size: 13px;
     line-height: 22px;
     color: #666666;
+    font-style: italic;
 }
 
 .formLogo span:nth-child(1) {
@@ -331,7 +332,12 @@ footer a.soc {
     font-size: 11px;
     line-height: 22px;
     color: #333333;
+}
 
+.formLogo label {
+    font-size: 13px;
+    line-height: 22px;
+    color: #666666;
 }
 
 .addLogo label a {
@@ -368,53 +374,53 @@ footer a.soc {
 
 /*Оформление заказа (order.html)*/
 
-.breadCrumbs li a, .content .breadCrumbs li span {
+.breadCrumbs li a, .contentOrder .breadCrumbs li span {
     font-size: 12px;
     line-height: 22px;
     color: #999999;
     text-decoration: none;
 }
 
-.content h1 {
+.contentOrder h1 {
     font-size: 25px;
     line-height: 22px;
     color: #333333;
     font-weight: 600;
 }
 
-.content h2 {
+.contentOrder h2 {
     font-size: 15px;
     line-height: 22px;
     color: #333333;
     font-weight: 600;
 }
 
-.content .orderCity label {
+.contentOrder .orderCity label {
     font-size: 13px;
     line-height: 22px;
     color: #666666;
 }
 
-.content label {
+.contentOrder label {
     font-size: 13px;
     line-height: 19px;
     color: #333333;
     font-weight: 600;
 }
 
-.content li p {
+.contentOrder li p {
     font-size: 12px;
     line-height: 18px;
     color: #666666;
 }
 
-.content li span {
+.contentOrder li span {
     font-size: 12px;
     line-height: 18px;
     color: #f26522;
 }
 
-.content span {
+.required {
     color: #ed1c24;
 }
 
@@ -424,7 +430,7 @@ footer a.soc {
     color: #666666;
 }
 
-.content button  {
+.contentOrder button  {
     font-size: 14px;
     line-height: 22px;
     color: #ffffff;

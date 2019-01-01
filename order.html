@@ -33,7 +33,7 @@
   </div>
 </header>
 <div class="container">
-  <div class="content">
+  <div class="contentOrder">
     <ul class="breadCrumbs">
       <li><a href="#">Главная</a></li>
       <li><a href="#">Корзина</a></li>
@@ -82,21 +82,21 @@
     <fieldset class="data">
       <h2>Адрес Доставки</h2>
       <div>
-        <label for="street">Улица<span>*</span></label>
+        <label for="street">Улица<span class="required">*</span></label>
         <input type="text" id="street" name="street">
       </div>
       <div>
-        <label for="area">Район<span>*</span></label>
+        <label for="area">Район<span class="required">*</span></label>
         <input type="text" id="area" name="area">
       </div>
       <div class="house">
         <div>
           <div>
-            <label for="house1">Дом<span>*</span></label>
+            <label for="house1">Дом<span class="required">*</span></label>
             <input type="text" id="house1" name="house1">
           </div>
           <div>
-            <label for="house2">Корпус<span>*</span></label>
+            <label for="house2">Корпус<span class="required">*</span></label>
             <input type="text" id="house2" name="house2">
           </div>
           <div>
@@ -128,15 +128,15 @@
     <fieldset class="data">
       <h2>Ваши данные</h2>
       <div>
-        <label for="name">Имя<span>*</span></label>
+        <label for="name">Имя<span class="required">*</span></label>
         <input type="text" id="name" name="name">
       </div>
       <div>
-        <label for="mail">Электронная почта<span>*</span></label>
+        <label for="mail">Электронная почта<span class="required">*</span></label>
         <input type="text" id="mail" name="mail">
       </div>
       <div
-      ><label for="phone">Номер телефона<span>*</span></label>
+      ><label for="phone">Номер телефона<span class="required">*</span></label>
         <input type="text" id="phone" name="phone">
       </div>
     </fieldset>
