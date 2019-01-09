@@ -24,6 +24,26 @@ ul {
     padding: 0 15px;
 }
 
+/*Блок - Ссылка HTML-25*/
+
+.invisLink {
+    position: relative;
+    z-index: 1;
+}
+
+.invisLink > a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+}
+
 .table {
     display: table;
     width: 100%;
@@ -76,6 +96,7 @@ header .menu li a {
 
 .logo {
 }
+
 
 header .phone {
     font-size: 20px;
@@ -244,6 +265,7 @@ header .phone [class*="icon"] {
 
 .card {
     position: relative;
+    border-bottom: 1px solid #e4e4e4;
 }
 
 .card .img {
