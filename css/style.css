@@ -47,7 +47,10 @@ ul {
 .table {
     display: table;
     width: 100%;
+    margin-bottom: 20px;
+    margin-top: 26px;
 }
+
 
 .tCell {
     display: table-cell;
@@ -60,6 +63,7 @@ a, button {
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 .clear::after {
     content: '';
     display: block;
@@ -71,6 +75,10 @@ button {
     cursor: pointer;
 }
 
+header .left span {
+    margin: 10px;
+}
+
 header .left, header .logo, header .right {
     width: 33.3333%;
     vertical-align: top;
@@ -79,9 +87,11 @@ header .left, header .logo, header .right {
 header .logo {
     text-align: center;
 }
+
 header .right {
     text-align: right;
 }
+
 header .login {
     font-size: 13px;
     line-height: 18px;
@@ -89,6 +99,7 @@ header .login {
 }
 
 header .menu {
+    margin-top: 43px;
 }
 
 header .menu li {
@@ -152,6 +163,10 @@ header .basket span {
     color: #1a9547;
 }
 
+header .basket {
+    margin-top: 30px;
+}
+
 header [class*="icon"] {
     color: #caebd4;
 }
@@ -169,9 +184,14 @@ header .phone [class*="icon"] {
     font-size: 20px;
 }
 
+header .right a:hover {
+    opacity: 0.7;
+}
+
 .banner {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 .banner .sale {
     width: 305px;
@@ -190,8 +210,11 @@ header .phone [class*="icon"] {
     background-position: center;
 }
 
+.mb15 {
+    margin-bottom: 15px;
+}
 .advantages .item span {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 17px;
     color: #333333;
@@ -230,6 +253,10 @@ header .phone [class*="icon"] {
     width: 188px;
 }
 
+.subscribe button:hover {
+    opacity: 0.7;
+}
+
 .subscribe .wrap span {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.5);
@@ -261,6 +288,9 @@ header .phone [class*="icon"] {
     width: 25%;
     float: left;
 }
+.filter {
+    margin: 30px 0 30px 0;
+}
 
 .filter li {
     font-size: 13px;
@@ -276,6 +306,10 @@ header .phone [class*="icon"] {
 .filter li a {
     text-decoration: none;
     color: #666666;
+}
+
+.filter li:hover {
+    border-bottom: 1px solid #666666;
 }
 
 .cards {
@@ -338,7 +372,13 @@ header .phone [class*="icon"] {
     text-align: center;
     color: #ffffff;
     background-color: #ff7200;
+    width: 103px;
+    height: 32px;
     float: right;
+}
+
+.card button:hover {
+    opacity: 0.7;
 }
 
 .card .status {
@@ -362,7 +402,6 @@ header .phone [class*="icon"] {
     width: 100%;
     left: 0px;
     bottom: 10px;
-
 }
 
 .status.hit {
@@ -375,14 +414,16 @@ header .phone [class*="icon"] {
 
 .status.new {
     background-color: #78ec71;
+
 }
 
 .widjets h2 {
+    margin: 75px 0 60px 0;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
     text-align: center;
-    color: #666666;
+    color: #666666
 }
 
 .widjets .item:first-child, .widjets .item:last-child {
@@ -413,7 +454,7 @@ header .phone [class*="icon"] {
     color: #999999;
 }
 
-.tubContent .content {
+.tubContent p {
     font-size: 12px;
     line-height: 18px;
     color: #333333;
